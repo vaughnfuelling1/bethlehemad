@@ -22,7 +22,7 @@ class CreateApp(object):
         fig = px.bar(df, x="Fruit", y="Amount", color="City", barmode="group")
         
         self.dash_app.layout = html.Div(children=[
-            html.H1(children='VF Hello Dash - Using bet_runner'),
+            html.H1(children='VF Hello Dash - Using beth_runner'),
         
             html.Div(children='''
                 VF Dash: A web application framework for your data.
